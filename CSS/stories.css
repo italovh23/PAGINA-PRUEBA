@@ -1,0 +1,264 @@
+.stories {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stories-banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.stories-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.stories section.stories-texto {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background: white;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.stories-etiqueta {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+.stories-texto h1 {
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+.stories-intro {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.stories-cita {
+    font-size: 25px;
+    font-weight: bold;
+    border-left: 5px solid #111111;
+    padding-left: 18px;
+    margin: 30px 0;
+}
+
+.stories-texto p {
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.stories-texto h2 {
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin: 35px 0 18px;
+    padding: 0;
+}
+
+.stories-texto h2:hover {
+    color: #111111;
+    padding: 0;
+}
+
+
+.stories-galeria {
+    width: 100%;
+    padding: 0 25px;
+    margin: 20px auto 35px;
+    box-sizing: border-box;
+}
+
+.stories-galeria table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px 0;
+    table-layout: fixed;
+}
+
+.stories-galeria td {
+    width: 50%;
+    padding: 0;
+    vertical-align: top;
+}
+
+.stories-galeria img {
+    display: block;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.stories-imagen-final {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.stories-imagen-final img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer.stories-footer {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px 30px 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stories-footer-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.stories-footer-logo {
+    width: 18%;
+}
+
+.stories-footer-logo img {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.stories-footer-columna {
+    min-width: 150px;
+}
+
+.stories-footer-columna h4 {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stories-footer-columna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stories-footer-columna ul li {
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+.stories-footer-columna ul li a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.stories-footer-columna ul li a:hover {
+    color: #aaaaaa;
+}
+
+.stories-footer-final {
+    max-width: 1200px;
+    margin: 35px auto 0;
+    padding: 20px 0;
+    border-top: 1px solid #555555;
+    text-align: center;
+}
+
+.stories-footer-final p {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+
+    .stories section.stories-texto {
+        padding: 30px 20px;
+    }
+
+    .stories-texto h1 {
+        font-size: 27px;
+    }
+
+    .stories-intro {
+        font-size: 17px;
+    }
+
+    .stories-texto h2 {
+        font-size: 23px;
+    }
+
+    .stories-galeria {
+        padding: 0 15px;
+    }
+
+    .stories-galeria table,
+    .stories-galeria tbody,
+    .stories-galeria tr {
+        display: block;
+        width: 100%;
+    }
+
+    .stories-galeria td {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .stories-galeria img {
+        height: 450px;
+    }
+
+    .stories-footer-contenido {
+        gap: 30px 15px;
+    }
+
+    .stories-footer-logo {
+        width: 100%;
+    }
+
+    .stories-footer-columna {
+        width: calc(50% - 10px);
+        min-width: 0;
+    }
+}
